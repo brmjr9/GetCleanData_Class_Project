@@ -76,6 +76,7 @@ Descriptive values:
 |type|Text description of data type (Test or Train)|
 
 Time domain values - means:  
+
 |Column Name                 | Description|
 |---------------------------|------------------------------------------------------------------|
 |tBodyAcc-mean()-X           | Body Accelerometer Signals (X, Y, and Z directions)|
@@ -99,6 +100,7 @@ Time domain values - means:
 |tBodyGyroJerkMag-mean()	    | Body Gyroscope Jerk Magnitude|
 
 Frequency domain values - means:  
+
 |Column Name                 | Description|
 |--------------------------|------------------------------------------------------------------|
 |fBodyAcc-mean()-X	          | Body Accelerometer Signals (X, Y, and Z directions)|
@@ -116,6 +118,7 @@ Frequency domain values - means:
 |fBodyBodyGyroJerkMag-mean()	| Body Gyroscope Jerk Magnitude|
 
 Time domain values - standard deviations:  
+
 |Column Name                 | Description |
 |---------------------------|------------------------------------------------------------------|
 |tBodyAcc-std()-X	          | Body Accelerometer Signals (X, Y, and Z directions)
@@ -140,6 +143,7 @@ Time domain values - standard deviations:
 |tBodyGyroJerkMag-std()	    | Body Gyroscope Jerk Magnitude
 
 Frequency domain values - standard deviations:  
+
 |Column Name                 | Description|
 |---------------------------|---------------------------------------------------|
 |fBodyAcc-std()-X	          | Body Accelerometer Signals (X, Y, and Z directions)|
@@ -155,3 +159,4 @@ Frequency domain values - standard deviations:
 |fBodyBodyAccJerkMag-std()	  | Body Acceletation Jerk Magnitude|
 |fBodyBodyGyroMag-std()	    | Body Gyroscope Magnitude|
 |fBodyBodyGyroJerkMag-std()  | Body Gyroscope Jerk Magnitude|
+
