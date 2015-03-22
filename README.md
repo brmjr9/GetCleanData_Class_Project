@@ -10,7 +10,7 @@ output: html_document
 ###Repository Contents
 
 This repository includes several files for tidying the UCI HAR Datasets.
-* README.md - This file, a breif overview of the elements in the repository
+* README.md - This file, a brief overview of the elements in the repository
 * CodeBook.md - An R Markdown file containg details of the assignment, data sources, and a codebook for the tidyed data.
 * run_analysis.R - An R function for taking the data found in the UCI HAR Datasets and creating a tidy combined
    dataset as well as a summary text file (UCI_HAR_Summary.txt)
@@ -48,12 +48,10 @@ There are 8 data sets to tidy up:
  * subject_train and subject_test (n x 1 - 1 column of subject ids)
 
 The tidying tasks include these steps:
-1) Merge the training and the test sets to create one data set.
-2) Extract only the measurements on the mean and standard deviation for each measurement. 
-3) Use descriptive activity names to name the activities in the data set
-4) Appropriately label the data set with descriptive variable names 
-5) From the data set in step 4, create a second, independent tidy data set with the 
-   average of each variable for each activity and each subject.
-   This data set should go to a txt file created with write.table() using row.name=FALSE.
+ *1) Merge the training and the test sets to create one data set.
+ *2) Extract only the measurements on the mean and standard deviation for each measurement. 
+ *3) Use descriptive activity names to name the activities in the data set
+ *4) Appropriately label the data set with descriptive variable names 
+ *5) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject. This data set should go to a txt file created with write.table() using row.name=FALSE.
 
 See the run_analysis.r script for further details of how these tasks are completed.
