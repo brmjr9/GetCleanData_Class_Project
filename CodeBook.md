@@ -69,9 +69,7 @@ Descriptive values:
 |Column Name| Description|
 |----------------------|--------------------|
 |activity|Index 1-6 indicating the activity type|
-|activity_desc|Text description of the activity|
-| |(Laying, Sitting, Standing, Walking,|
-| |Walking Downstairs, Walking Upstairs)|
+|activity_desc|Text description of the activity (Laying, Sitting, Standing, Walking, Walking Downstairs, Walking Upstairs)|
 |subject|Index 1-30 for the subject ID|
 |type|Text description of data type (Test or Train)|
 
@@ -93,9 +91,9 @@ Time domain values - means:
 |tBodyGyroJerk-mean()-X	    | Body Gyroscope Jerk Signals (X, Y, and Z directions)|
 |tBodyGyroJerk-mean()-Y	    | |
 |tBodyGyroJerk-mean()-Z	    | |
-|tBodyAccMag-mean()	        | Body Acceleration Magnitude|
-|tGravityAccMag-mean()	      | Gravity Acceletation Magnitude|
-|tBodyAccJerkMag-mean()	    | Body Acceletation Jerk Magnitude|
+|tBodyAccMag-mean()	        | Body Accelerometer Magnitude|
+|tGravityAccMag-mean()	      | Gravity Accelerometer Magnitude|
+|tBodyAccJerkMag-mean()	    | Body Accelerometer Jerk Magnitude|
 |tBodyGyroMag-mean()	        | Body Gyroscope Magnitude|
 |tBodyGyroJerkMag-mean()	    | Body Gyroscope Jerk Magnitude|
 
@@ -112,8 +110,8 @@ Frequency domain values - means:
 |fBodyGyro-mean()-X	        | Body Gyroscope Signals (X, Y, and Z directions)|
 |fBodyGyro-mean()-Y	        | |
 |fBodyGyro-mean()-Z	        | |
-|fBodyAccMag-mean()	        | Body Acceleration Magnitude|
-|fBodyBodyAccJerkMag-mean()	| Body Acceletation Jerk Magnitude|
+|fBodyAccMag-mean()	        | Body Accelerometer Magnitude|
+|fBodyBodyAccJerkMag-mean()	| Body Accelerometer Jerk Magnitude|
 |fBodyBodyGyroMag-mean()	    | Body Gyroscope Magnitude|
 |fBodyBodyGyroJerkMag-mean()	| Body Gyroscope Jerk Magnitude|
 
@@ -136,9 +134,9 @@ Time domain values - standard deviations:
 |tBodyGyroJerk-std()-X	      | Body Gyroscope Jerk Signals (X, Y, and Z directions)
 |tBodyGyroJerk-std()-Y	      | 
 |tBodyGyroJerk-std()-Z	      | 
-|tBodyAccMag-std()	          | Body Acceleration Magnitude
-|tGravityAccMag-std()	      | Gravity Acceletation Magnitude
-|tBodyAccJerkMag-std()	      | Body Acceletation Jerk Magnitude
+|tBodyAccMag-std()	          | Body Accelerometer Magnitude
+|tGravityAccMag-std()	      | Gravity Accelerometer Magnitude
+|tBodyAccJerkMag-std()	      | Body Accelerometer Jerk Magnitude
 |tBodyGyroMag-std()	        | Body Gyroscope Magnitude
 |tBodyGyroJerkMag-std()	    | Body Gyroscope Jerk Magnitude
 
@@ -155,8 +153,8 @@ Frequency domain values - standard deviations:
 |fBodyGyro-std()-X	          | Body Gyroscope Signals (X, Y, and Z directions)|
 |fBodyGyro-std()-Y	          | |
 |fBodyGyro-std()-Z	          | |
-|fBodyAccMag-std()	          | Body Acceleration Magnitude|
-|fBodyBodyAccJerkMag-std()	  | Body Acceletation Jerk Magnitude|
+|fBodyAccMag-std()	          | Body Accelerometer Magnitude|
+|fBodyBodyAccJerkMag-std()	  | Body Accelerometer Jerk Magnitude|
 |fBodyBodyGyroMag-std()	    | Body Gyroscope Magnitude|
 |fBodyBodyGyroJerkMag-std()  | Body Gyroscope Jerk Magnitude|
 
